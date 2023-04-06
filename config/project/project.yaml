@@ -1,4 +1,16 @@
-dateModified: 1680790908
+dateModified: 1680812612
+elementSources:
+  craft\elements\Category:
+    -
+      defaultSort:
+        - structure
+        - asc
+      disabled: false
+      key: 'group:25588da0-4e24-4981-be23-1d3bf9dd7bdc' # Locations
+      tableAttributes:
+        - link
+        - uri
+      type: native
 email:
   fromEmail: leroyrosales@gmail.com
   fromName: 'Craft Project'
@@ -17,8 +29,10 @@ meta:
     2e8a3caf-58d4-45ef-adc2-f98e74401789: 'Craft Project' # Craft Project
     6df72ef7-547e-401d-9f0e-8a08aed68f51: 'Town entries' # Town entries
     6fefbc59-3da6-47a7-9cff-ddefb0c84eaf: 'Town Location' # Town Location
+    7e1216d3-ff46-4889-b3cf-e65e429c3653: Location # Location
     45e9d3a4-f30e-4fa3-ad9d-a6829f60cfe2: 'Town Image' # Town Image
     09147a01-9b77-4980-a20b-f5d12a8e2684: 'Craft Project' # Craft Project
+    25588da0-4e24-4981-be23-1d3bf9dd7bdc: Locations # Locations
     75343b31-3eb7-4772-831f-9577222a5df2: Homepage # Homepage
     78840b1d-1f21-4fcd-9e8e-55e548a9cd55: Towns # Towns
     a3491a6a-a4a3-4065-b65b-e1963386d2cc: 'Town Description' # Town Description

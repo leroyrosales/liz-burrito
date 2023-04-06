@@ -1,5 +1,5 @@
 {% extends '_layout.twig' %}
-{% set towns = craft.entries.section('towns').all() %}
+{% set towns = craft.entries.section('towns').limit(6) %}
 
 {% block content %}
 
