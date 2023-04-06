@@ -1,4 +1,4 @@
-dateModified: 1680787274
+dateModified: 1680787338
 email:
   fromEmail: leroyrosales@gmail.com
   fromName: 'Craft Project'
@@ -20,6 +20,10 @@ meta:
     d0280e67-b45e-46a7-8dff-86c6b159c597: Common # Common
     e2e4133a-5337-4f45-be1c-fa1b0a8280d3: 'Hero Image' # Hero Image
 plugins:
+  feed-me:
+    edition: standard
+    enabled: true
+    schemaVersion: 5.1.0.0
   redactor:
     edition: standard
     enabled: true
