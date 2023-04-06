@@ -1,0 +1,38 @@
+dateModified: 1680787274
+email:
+  fromEmail: leroyrosales@gmail.com
+  fromName: 'Craft Project'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  uploads:
+    hasUrls: true
+    name: Uploads
+    settings:
+      path: $ASSET_BASE_PATH
+    type: craft\fs\Local
+    url: $ASSET_BASE_URL
+meta:
+  __names__:
+    2e8a3caf-58d4-45ef-adc2-f98e74401789: 'Craft Project' # Craft Project
+    5ab37866-76d8-4a6c-829d-656997f5d309: Uploads # Uploads
+    09147a01-9b77-4980-a20b-f5d12a8e2684: 'Craft Project' # Craft Project
+    75343b31-3eb7-4772-831f-9577222a5df2: Homepage # Homepage
+    d0280e67-b45e-46a7-8dff-86c6b159c597: Common # Common
+    e2e4133a-5337-4f45-be1c-fa1b0a8280d3: 'Hero Image' # Hero Image
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: 'Craft Project'
+  schemaVersion: 4.4.0.4
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
