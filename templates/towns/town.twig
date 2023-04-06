@@ -1,13 +1,14 @@
 {% extends '_layout' %}
+{% set hero = entry.townImage.one() %} {# Get hero if there is one #}
 
 {% block content %}
     <h1>{{ entry.title }}</h1>
 
-
-    <img src="{{ entry.townImage.one().url }}" alt="Photo of {{ entry.title }}" role="presentation"/>
+    {% if hero %}
+        {% include '_includes/hero-image.twig' with { 'image': hero } %}
+    {% endif %}
 
     <p>
     {{ entry.townDescription }}
     </p>
 {% endblock %}
-
