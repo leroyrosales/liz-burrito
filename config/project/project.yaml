@@ -1,4 +1,4 @@
-dateModified: 1680787338
+dateModified: 1680787947
 email:
   fromEmail: leroyrosales@gmail.com
   fromName: 'Craft Project'
@@ -14,11 +14,11 @@ fs:
 meta:
   __names__:
     2e8a3caf-58d4-45ef-adc2-f98e74401789: 'Craft Project' # Craft Project
-    5ab37866-76d8-4a6c-829d-656997f5d309: Uploads # Uploads
     09147a01-9b77-4980-a20b-f5d12a8e2684: 'Craft Project' # Craft Project
     75343b31-3eb7-4772-831f-9577222a5df2: Homepage # Homepage
     d0280e67-b45e-46a7-8dff-86c6b159c597: Common # Common
     e2e4133a-5337-4f45-be1c-fa1b0a8280d3: 'Hero Image' # Hero Image
+    ebadaa72-6ac7-48ce-90d5-b5076fd33212: Uploads # Uploads
 plugins:
   feed-me:
     edition: standard
