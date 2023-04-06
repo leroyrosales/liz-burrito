@@ -1,4 +1,4 @@
-dateModified: 1680787947
+dateModified: 1680790908
 email:
   fromEmail: leroyrosales@gmail.com
   fromName: 'Craft Project'
@@ -13,9 +13,15 @@ fs:
     url: $ASSET_BASE_URL
 meta:
   __names__:
+    0fb96648-9be3-4dcc-a81b-ffea5323392f: Towns # Towns
     2e8a3caf-58d4-45ef-adc2-f98e74401789: 'Craft Project' # Craft Project
+    6df72ef7-547e-401d-9f0e-8a08aed68f51: 'Town entries' # Town entries
+    6fefbc59-3da6-47a7-9cff-ddefb0c84eaf: 'Town Location' # Town Location
+    45e9d3a4-f30e-4fa3-ad9d-a6829f60cfe2: 'Town Image' # Town Image
     09147a01-9b77-4980-a20b-f5d12a8e2684: 'Craft Project' # Craft Project
     75343b31-3eb7-4772-831f-9577222a5df2: Homepage # Homepage
+    78840b1d-1f21-4fcd-9e8e-55e548a9cd55: Towns # Towns
+    a3491a6a-a4a3-4065-b65b-e1963386d2cc: 'Town Description' # Town Description
     d0280e67-b45e-46a7-8dff-86c6b159c597: Common # Common
     e2e4133a-5337-4f45-be1c-fa1b0a8280d3: 'Hero Image' # Hero Image
     ebadaa72-6ac7-48ce-90d5-b5076fd33212: Uploads # Uploads
