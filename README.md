@@ -2,4 +2,4 @@
 
 A Craft CMS site built with Tailwind CSS and love for small towns in Texas.
 
-![Uploading Screen Shot 2023-04-21 at 11.33.44 PM.png…]()
+<img width="1544" alt="Screenshot of site example" src="https://user-images.githubusercontent.com/3495164/233762903-41aef58f-de11-4152-9902-341dd4f4fcd6.png" role="presentation">
