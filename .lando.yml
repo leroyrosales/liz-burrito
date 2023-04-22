@@ -1,5 +1,0 @@
-name: craft-proj
-recipe: lamp
-config:
-  webroot: web
-  php: '8.1'
