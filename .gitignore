@@ -3,7 +3,7 @@
 /vendor
 .DS_Store
 node_modules
-
+config
 # Craft .gitignore
 #
 # Example .gitignore file for Craft CMS projects
