@@ -1,3 +1,13 @@
+{% if entry is defined %}
+  {% set hero_image = entry.townImage.one().url %}
+  {% set hero_title = entry.townImage.one().title %}
+  {% set hero_headline = entry.title %}
+{% else %}
+  {% set hero_image = siteHero.siteHero.one().url %}
+  {% set hero_title = siteHero.siteHero.one().title %}
+  {% set hero_headline = 'Find your hidden gem in Texas.' %}
+  {% set hero_tagline = 'Highlighting small Texas towns across the state. Some known, many unknown.' %}
+{% endif %}
 <div class="bg-gray-900">
   <header class="absolute inset-x-0 top-0 z-50">
     <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
@@ -26,11 +36,13 @@
     </nav>
   </header>
   <div class="relative grid isolate overflow-hidden max-h-96">
-    <img src="{{ siteHero.siteHero.one().url }}" alt="{{ siteHero.siteHero.one().title }}" class="col-span-full row-span-full max-h-96 object-cover object-center w-full" role="presentation">
+    <img src="{{ hero_image }}" alt="{{ hero_title }}" class="col-span-full row-span-full max-h-96 object-cover object-center w-full" role="presentation">
     <div class="col-span-full row-span-full p-8 bg-[#351800] bg-opacity-75 flex justify-center items-center">
       <div class="text-center">
-        <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">Find your hidden gem in Texas.</h1>
-        <p class="mt-6 text-lg leading-8 text-gray-300">Highlighting small Texas towns across the state. Some known, many unknown.</p>
+        <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">{{ hero_headline }}</h1>
+        {% if hero_tagline is defined %}
+          <p class="mt-6 text-lg leading-8 text-gray-300">{{ hero_tagline }}</p>
+        {% endif %}
       </div>
     </div>
     <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">

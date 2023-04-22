@@ -2,13 +2,9 @@
 {% set hero = entry.townImage.one() %} {# Get hero if there is one #}
 
 {% block content %}
-    <h1>{{ entry.title }}</h1>
-
-    {% if hero %}
-        {% include '_includes/hero-image.twig' with { 'image': hero } %}
-    {% endif %}
-
-    <p>
-    {{ entry.townDescription }}
-    </p>
+    <section class="py-8 lg:py-16">
+        <article class="prose lg:prose-xl mx-auto px-4 lg:px-0">
+            {{ entry.townDescription }}
+        </article>
+    </section>
 {% endblock %}
