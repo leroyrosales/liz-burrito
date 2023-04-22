@@ -1,4 +1,4 @@
-{% if entry is defined %}
+{% if entry is defined and entry.section.handle == 'towns' %}
   {% set hero_image = entry.townImage.one().url %}
   {% set hero_title = entry.townImage.one().title %}
   {% set hero_headline = entry.title %}
@@ -25,7 +25,7 @@
         </button>
       </div>
       <div class="hidden lg:flex lg:gap-x-12">
-        <a href="#" class="text-sm font-semibold leading-6 text-white">About</a>
+        <a href="{{ siteUrl }}about" class="text-sm font-semibold leading-6 text-white">About</a>
 
         <a href="{{ siteUrl }}locations/" class="text-sm font-semibold leading-6 text-white">Parts of Texas</a>
 

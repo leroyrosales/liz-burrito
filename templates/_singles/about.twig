@@ -1,11 +1,10 @@
 {% extends '_layout' %}
 
 {% block content %}
-
-   <h1>{{ entry.title }}</h1>
-
-    <div>
+    <section class="py-8 lg:py-16">
+        <article class="prose lg:prose-xl mx-auto px-4 lg:px-0">
+        <h1 class="pb-4 lg:pb-8">{{ entry.title }}</h1>
         {{ entry.post_content }}
-    </div>
-
+        </article>
+    </section>
 {% endblock %}
