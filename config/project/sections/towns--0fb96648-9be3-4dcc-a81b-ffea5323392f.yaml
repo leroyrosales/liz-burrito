@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: towns
+name: Towns
+propagationMethod: all
+siteSettings:
+  2e8a3caf-58d4-45ef-adc2-f98e74401789: # Craft Project
+    enabledByDefault: true
+    hasUrls: true
+    template: towns/town.twig
+    uriFormat: 'towns/{slug}'
+type: channel

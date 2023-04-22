@@ -1,0 +1,91 @@
+fieldLayouts:
+  089c885d-79fc-458c-9220-59e49086ade2:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: cb807737-a4e7-46f3-911b-e705b8ee2c84
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 45e9d3a4-f30e-4fa3-ad9d-a6829f60cfe2 # Town Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4337562b-403c-461b-a22a-f9ed1be19b6a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a3491a6a-a4a3-4065-b65b-e1963386d2cc # Town Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8ab59ff1-0cec-4e0d-ad8d-5bce5b25ebe3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6fefbc59-3da6-47a7-9cff-ddefb0c84eaf # Town Location
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a2d5eb38-8273-4892-b1d4-c25aa81b9074
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7e1216d3-ff46-4889-b3cf-e65e429c3653 # Location
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bbb3f643-4900-4ff1-b31f-458863b6e6f8
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d0a3aa72-891d-4770-9c80-a0e3652b9add
+        userCondition: null
+handle: town
+hasTitleField: true
+name: 'Town entries'
+section: 0fb96648-9be3-4dcc-a81b-ffea5323392f # Towns
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

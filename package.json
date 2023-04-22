@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "npx tailwindcss -i ./templates/static/css/styles.css -o ./templates/assets/css/styles.css --watch",
+    "build": "TAILWIND_MODE=build NODE_ENV=production npx tailwindcss -i ./templates/static/css/styles.css -o ./templates/assets/css/styles.css --minify"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "tailwindcss": "^3.3.1"
+  }
+}
