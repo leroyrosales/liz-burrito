@@ -1,15 +1,18 @@
 {% set image = town.townImage.one() %}
+{% do image.setTransform({ width: 300, height: 300 }) %}
 
 <article class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80">
     <picture class="absolute inset-0 -z-10 h-full w-full object-cover">
-        <img
-            loading="lazy"
-            src="{{ image.url }}"
-            srcset="{{ image.getSrcset(['1.5x', '2x', '3x']) }}"
-            alt="{{ image.title }}"
-            role="presentation"
-            class="object-cover h-full"
-        />
+        {{ tag('img', {
+            src: image.url,
+            width: image.width,
+            height: image.height,
+            srcset: image.getSrcset(['1.5x', '2x', '3']),
+            alt: image.title,
+            loading: 'lazy',
+            class: 'object-cover h-full w-full',
+            quality: 75
+        }) }}
     </picture>
     <div class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
     <div class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
