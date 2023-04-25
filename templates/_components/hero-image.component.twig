@@ -1,0 +1,17 @@
+{% set hero = {
+  mode: 'crop',
+  width: 900,
+  height: 300,
+  quality: 80,
+  position: 'center-center'
+} %}
+
+<picture class="col-span-full row-span-full">
+    <img
+        class="max-h-96 object-cover object-center w-full"
+        src="{{ image.getUrl(hero) }}"
+        srcset="{{ image.getSrcset(['1.5x', '2x', '3x']) }}"
+        alt="{{ image.title }}"
+        role="presentation"
+    />
+</picture>
